@@ -13,7 +13,7 @@
 
 ### 🌐 About Techvibe
 
-**Techvibe** is a software engineering and digital solutions studio founded by **[Aria Esmaeilzadeh](https://github.com/ariaesm)**. We design and engineer modern web platforms, intelligent data tools, and developer-first open-source libraries.
+**Techvibe** is a digital solutions and software engineering studio founded by **[Aria Esmaeilzadeh](https://github.com/ariaesm)**. We design and engineer modern web platforms, intelligent data tools, and developer-first open-source libraries.
 
 Our philosophy is simple: **Innovate · Create · Dominate** — delivering clean, fast, and scalable software with zero unnecessary complexity.
 
@@ -28,14 +28,15 @@ Our philosophy is simple: **Innovate · Create · Dominate** — delivering clea
 
 ---
 
-### 📦 Open Source & Flagship Projects
+### 📦 Open Source & Flagship Ecosystem
 
 | Project | Description | Tech Stack |
 | :--- | :--- | :--- |
+| **[persian-kit](https://github.com/techvibe-software/persian-kit)** | Zero-dependency Persian utility toolkit: Currency, National ID, Bank cards, Sheba, Number-to-Words. | TypeScript · Bun · Vitest |
+| **[iran-locations](https://github.com/techvibe-software/iran-locations)** | Typed database & search library for all 31 Iranian provinces and major cities. | TypeScript · Geo · Vitest |
 | **[react-jalali-datepicker](https://github.com/ariaesm/react-jalali-datepicker)** | Zero-dependency, accessible Jalali Date & Range Picker for modern React & Next.js. | React 19 · Next.js 15 · Tailwind |
 | **[next-persian-starter](https://github.com/ariaesm/next-persian-starter)** | Production-ready Next.js starter template with full RTL/Persian localization & SEO engine. | Next.js 15 · TypeScript · Tailwind |
 | **[persian-rag](https://github.com/ariaesm/persian-rag)** | Grounded Q&A over Persian documents with hybrid BM25 + dense retrieval & citation verification. | Python · NLP · LLM |
-| **[market-pulse-api](https://github.com/ariaesm/market-pulse-api)** | Real-time market data service with OHLCV feeds, technical indicators, and WebSocket streaming. | FastAPI · Redis · Docker |
 
 ---
 
@@ -43,7 +44,7 @@ Our philosophy is simple: **Innovate · Create · Dominate** — delivering clea
 
 ```
 Frontend    │ Next.js 15 · React 19 · TypeScript · Tailwind CSS · Vite
-Backend     │ Python · FastAPI · Node.js · Redis · PostgreSQL · Docker
+Backend     │ Python · FastAPI · Node.js · Bun · Redis · PostgreSQL · Docker
 AI & Data   │ LLM APIs · Ollama · BM25 / Vector Search · NumPy · SciPy
 DevOps & CI │ GitHub Actions · Docker · Vitest · Vercel
 ```
